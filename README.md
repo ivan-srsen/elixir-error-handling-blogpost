@@ -1,9 +1,9 @@
 Trigger | Handler | Compatible?
---- | --- | :---: | ---
-`raise` | `catch/2` | ✅
-`throw` | `catch/2` | ✅
-`exit` | `catch/2` | ✅
-`:erlang.error` | `catch/2` | ✅
+--- | --- | :---:
+`raise` | `catch/2` | ✅ 
+`throw` | `catch/2` | ✅ 
+`exit` | `catch/2` | ✅ 
+`:erlang.error` | `catch/2` | ✅ 
 `raise` | `rescue` | ✅ 
 `throw` | `rescue` | ❌ 
 `exit` | `rescue` | ❌ 
